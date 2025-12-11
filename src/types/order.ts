@@ -54,7 +54,7 @@ export type GetOrdersResponse = {
     has_next: boolean
     category: string
   }
-  messages: unknown[]
+  messages: string[]
 }
 
 export type DeleteOrderResponse = {

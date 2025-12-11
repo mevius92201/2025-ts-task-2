@@ -28,7 +28,7 @@ import { onMounted, ref, useTemplateRef } from 'vue'
 // TODO: 為模板引用加上型別註解
 // 提示：使用 useTemplateRef<InstanceType<typeof ProductModal>>()
 const productModalRef = useTemplateRef<InstanceType<typeof ProductModal>>('productModalRef')
-const deleteModalRef = useTemplateRef<InstanceType<typeof ProductModal>>('deleteModalRef')
+const deleteModalRef = useTemplateRef<InstanceType<typeof DeleteModal>>('deleteModalRef')
 
 // TODO: 為 currentPage 加上型別註解
 // 提示：使用 ref<string>()

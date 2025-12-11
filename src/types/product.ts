@@ -81,7 +81,7 @@ export type GetProductsResponse = {
   success: boolean
   products: Array<ProductData>
   pagination: Pagination
-  messages: Array<unknown>
+  messages: Array<string>
 }
 
 // TODO: 定義訊息回應基本型別
